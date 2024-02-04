@@ -1,0 +1,21 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-show {
+  color: black;
+  opacity: 1;
+  transition: all 1s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-fade {
+  color: black;
+  opacity: 0;
+  transition: all 1s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

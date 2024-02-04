@@ -1,0 +1,11 @@
+/*** Front Page ***/
+:root {
+  --color-sky: #73bcff;
+}
+.intro {
+  background-color: var(--color-sky);
+  width: 100%;
+}
+#name {
+  color: wheat;
+}

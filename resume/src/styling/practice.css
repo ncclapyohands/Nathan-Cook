@@ -1,0 +1,36 @@
+:root {
+  --dark-blue: #023047;
+  --light-blue: #219ebc;
+}
+
+svg {
+  cursor: pointer;
+}
+
+#darkGroup {
+  background-color: var(--dark-blue);
+  fill: var(--dark-blue);
+}
+
+#lightGroup {
+  fill: var(--light-blue);
+}
+
+#dark1,
+#dark2,
+#light1 {
+  transition: all 1s ease;
+}
+#dark1 {
+  transform: translateX(-100%);
+}
+svg:hover #light1 {
+  transform: translateX(10%);
+}
+svg:hover #dark2 {
+  transform: translateX(30%);
+  opacity: 0;
+}
+svg:hover #dark1 {
+  transform: translateX(0%);
+}

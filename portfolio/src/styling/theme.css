@@ -1,0 +1,9 @@
+:root {
+  --primary-background: #2c2c2c; /* Deep space black */
+  --secondary-background: #1a1a1a; /* Dark space gray */
+  --text-color: #ffffff; /* Cosmic white */
+  --link-color: #8e24aa; /* Galactic purple */
+  --link-hover-color: #ffcc00; /* Solar yellow */
+  --accent-color: #7b1fa2; /* Deep purple */
+  --border-color: #757575; /* Asteroid gray */
+}

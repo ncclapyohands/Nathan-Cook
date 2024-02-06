@@ -1,12 +1,7 @@
 import { useState } from "react";
 import { ToggleButtonGroup, ToggleButton } from "@mui/material";
 
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
-import { CardActionArea } from "@mui/material";
-// import MyCard from "./Card";
+import MyCard from "./Card";
 export default function Skills() {
   const [alignment, setAlignment] = useState("languages");
 
@@ -20,51 +15,97 @@ export default function Skills() {
     switch (alignment) {
       case "languages":
         return (
-          <ul>
+          <ul className="cards">
             <li>
-              {/* <MyCard
-                img="object"
-                alt="gay"
+              <MyCard
+                img="/src/assets/c++.png"
+                alt="C++ Logo"
                 title="C++"
                 desc="I have worked with C++ before"
-              ></MyCard> */}
-              <Card sx={{ maxWidth: 345 }}>
-                <CardActionArea>
-                  <CardMedia
-                    component="img"
-                    height="140"
-                    image="../assets/python.png"
-                    alt="alt"
-                  />
-                  <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                      title
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      desc
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
-              </Card>
+              />
             </li>
-            <li>Python</li>
-            <li>Java</li>
+            <li>
+              <MyCard
+                img="/src/assets/python.png"
+                alt="Python Logo"
+                title="Python"
+                desc="I have worked with Python before"
+              />
+            </li>
+            <li>
+              <MyCard
+                img="/src/assets/java.svg"
+                alt="Java Logo"
+                title="Java - 2 Years"
+                desc="I have worked with Java before"
+              />
+            </li>
           </ul>
         );
       case "frontend":
         return (
           <ul>
-            <li>React</li>
-            <li>Angular</li>
-            <li>Vue.js</li>
+            <li>
+              <MyCard
+                img="/src/assets/HTML5.svg"
+                alt="HTML Logo"
+                title="HTML 5"
+                desc="I have worked with HTML before"
+              />
+            </li>
+            <li>
+              <MyCard
+                img="/src/assets/css.svg"
+                alt="CSS logo"
+                title="CSS"
+                desc="I have worked with CSS before"
+              />
+            </li>
+            <li>
+              <MyCard
+                img="/src/assets/react.svg"
+                alt="React Logo"
+                title="React"
+                desc="I have worked with HTML before"
+              />
+            </li>
+            <li>
+              <MyCard
+                img="/src/assets/vite.svg"
+                alt="Vite Logo"
+                title="Vite"
+                desc="I have worked with Vite before"
+              />
+            </li>
           </ul>
         );
       case "backend":
         return (
           <ul>
-            <li>Node.js</li>
-            <li>Django</li>
-            <li>Spring Boot</li>
+            <li>
+              <MyCard
+                img="/src/assets/nodejs.svg"
+                alt="Node.JS Logo"
+                title="Node.js"
+                desc="I have worked with Node.JS before"
+              />
+            </li>
+            <li>
+              <MyCard
+                img="/src/assets/mongodb.svg"
+                alt="MongoDB Logo"
+                title="Node.js"
+                desc="Worked in Mongoose and MongoDB Compass"
+              />
+            </li>
+            <li>
+              <MyCard
+                img="/src/assets/firebase.svg"
+                alt="Firebase Logo"
+                title="Firebase"
+                desc="I have worked with Firebase before"
+              />
+            </li>
           </ul>
         );
       case "DevOps":

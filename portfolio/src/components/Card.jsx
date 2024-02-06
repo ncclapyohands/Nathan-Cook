@@ -4,7 +4,10 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 
-export default function MyCard(img, alt, title, desc) {
+import "../styling/card.css";
+
+// eslint-disable-next-line react/prop-types
+export default function MyCard({ img, alt, title, desc }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>

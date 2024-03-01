@@ -9,9 +9,9 @@ import "../styling/card.css";
 // eslint-disable-next-line react/prop-types
 export default function MyCard({ img, alt, title, desc }) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 400 }}>
       <CardActionArea>
-        <CardMedia component="img" height="140" image={img} alt={alt} />
+        <CardMedia component="img" height="300" image={img} alt={alt} />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {title}

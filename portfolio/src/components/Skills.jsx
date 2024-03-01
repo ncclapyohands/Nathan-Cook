@@ -111,9 +111,30 @@ export default function Skills() {
       case "DevOps":
         return (
           <ul>
-            <li>Docker</li>
-            <li>Kubernetes</li>
-            <li>Jenkins</li>
+            <li>
+              <MyCard
+                img="/src/assets/docker.svg"
+                alt="Docker Logo"
+                title="Docker"
+                desc="I have worked with Docker before"
+              />
+            </li>
+            <li>
+              <MyCard
+                img="/src/assets/kubernetes.svg"
+                alt="Kubernetes Logo"
+                title="Kubernetes"
+                desc="I have worked with Kubernetes before"
+              />
+            </li>
+            <li>
+              <MyCard
+                img="/src/assets/terraform.svg"
+                alt="Terraform Logo"
+                title="Terraform"
+                desc="I have worked with Terraform before"
+              />
+            </li>
           </ul>
         );
       default:

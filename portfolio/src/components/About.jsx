@@ -3,7 +3,7 @@ import "../styling/about.css"; // Add your styles in AboutMe.css
 const About = () => {
   return (
     <section className="about-me">
-      <div className="about-me-section">
+      <div className="am-container">
         <h2>About Me</h2>
         <p>
           Hi there! My name is Nate, and I am a passionate software engineer.

@@ -22,7 +22,7 @@ const NavBar = () => {
   return (
     <nav className={`navbar ${menuOpen ? "open" : ""}`}>
       <div className="navbar-logo" onClick={scrollToTop}>
-        Nates Portfolio
+        {/* Nates Portfolio */}
       </div>
       <div className={`navbar-links ${menuOpen ? "open" : ""}`}>
         <Link

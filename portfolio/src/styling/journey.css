@@ -1,7 +1,7 @@
 @import "./theme.css";
-
+@import "./fonts.css";
 .timeline-container {
-  background: var(--secondary-background);
+  background: var(--deep-ocean);
 }
 
 .timeline {

@@ -1,21 +1,71 @@
-* {
-  font-family: "Open Sans", sans-serif;
+@import "./theme.css";
+@import "./fonts.css";
+
+.intro {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: rgb(0, 180, 216);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 180, 216, 1) 0%,
+    rgba(144, 224, 239, 1) 75%,
+    rgba(173, 232, 244, 1) 100%
+  );
+}
+.intro-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  padding: 10px;
+}
+.intro-title h2,
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
-.text-show {
-  color: black;
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(../assets/wave2.png);
+  background-size: 1000px 100px;
+  animation: animate 4s ease-in-out infinite;
+  animation-delay: calc(var(--var) * 0.25s);
+}
+
+.wave#wave1 {
+  z-index: 1000;
   opacity: 1;
-  transition: all 1s ease;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-position-x: 400px;
+}
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  background-position-x: 500px;
+}
+.wave#wave3 {
+  z-index: 998;
+  opacity: 0.25;
+  background-position-x: 300px;
+}
+.wave#wave4 {
+  z-index: 987;
+  opacity: 0.7;
+  background-position-x: 6000px;
 }
 
-.text-fade {
-  color: black;
-  opacity: 0;
-  transition: all 1s ease;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@keyframes animate {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
 }

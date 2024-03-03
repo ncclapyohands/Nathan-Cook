@@ -1,9 +1,20 @@
 :root {
-  --primary-background: #2c2c2c; /* Deep space black */
-  --secondary-background: #1a1a1a; /* Dark space gray */
+  --primary-background: #90e0ef; /* Sky Blue */
+  --ocean-color: #00b4d8; /* Ocean Blue */
+  --ocean-second-color: #0096c7;
+  --ocean-third-color: #0077b6;
+  --ocean-forth-color: #023e8a;
+  --deep-ocean: #03045e;
+  --ocean-floor: #023047;
   --text-color: #ffffff; /* Cosmic white */
   --link-color: #8e24aa; /* Galactic purple */
-  --link-hover-color: #ffcc00; /* Solar yellow */
+  --link-hover-color: #ffb703; /* Solar yellow */
   --accent-color: #7b1fa2; /* Deep purple */
   --border-color: #757575; /* Asteroid gray */
+}
+h2,
+h3 {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }

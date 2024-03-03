@@ -1,0 +1,9 @@
+@import "./theme.css";
+@import "./fonts.css";
+.about-me {
+  background-color: var(--ocean-color);
+}
+.am-container {
+  padding: 10px 0px 10px 0px;
+  margin: 0px 100px 0px 100px;
+}

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { ToggleButtonGroup, ToggleButton } from "@mui/material";
+import "../styling/skills.css";
 
-import MyCard from "./Card";
+import Skill from "./Skill";
 export default function Skills() {
   const [alignment, setAlignment] = useState("languages");
 
@@ -17,123 +18,58 @@ export default function Skills() {
         return (
           <ul className="cards">
             <li>
-              <MyCard
-                img="/src/assets/c++.png"
-                alt="C++ Logo"
-                title="C++"
-                desc="I have worked with C++ before"
-              />
+              <Skill img="/src/assets/c++.png" alt="C++ Logo" />
             </li>
             <li>
-              <MyCard
-                img="/src/assets/python.png"
-                alt="Python Logo"
-                title="Python"
-                desc="I have worked with Python before"
-              />
+              <Skill img="/src/assets/python.png" alt="Python Logo" />
             </li>
             <li>
-              <MyCard
-                img="/src/assets/java.svg"
-                alt="Java Logo"
-                title="Java - 2 Years"
-                desc="I have worked with Java before"
-              />
+              <Skill img="/src/assets/java.svg" alt="Java Logo" />
             </li>
           </ul>
         );
       case "frontend":
         return (
-          <ul>
+          <ul className="cards">
             <li>
-              <MyCard
-                img="/src/assets/HTML5.svg"
-                alt="HTML Logo"
-                title="HTML 5"
-                desc="I have worked with HTML before"
-              />
+              <Skill img="/src/assets/HTML5.svg" alt="HTML Logo" />
             </li>
             <li>
-              <MyCard
-                img="/src/assets/css.svg"
-                alt="CSS logo"
-                title="CSS"
-                desc="I have worked with CSS before"
-              />
+              <Skill img="/src/assets/css.svg" alt="CSS logo" />
             </li>
             <li>
-              <MyCard
-                img="/src/assets/react.svg"
-                alt="React Logo"
-                title="React"
-                desc="I have worked with HTML before"
-              />
+              <Skill img="/src/assets/react.svg" alt="React Logo" />
             </li>
             <li>
-              <MyCard
-                img="/src/assets/vite.svg"
-                alt="Vite Logo"
-                title="Vite"
-                desc="I have worked with Vite before"
-              />
+              <Skill img="/src/assets/vite.svg" alt="Vite Logo" />
             </li>
           </ul>
         );
       case "backend":
         return (
-          <ul>
+          <ul className="cards">
             <li>
-              <MyCard
-                img="/src/assets/nodejs.svg"
-                alt="Node.JS Logo"
-                title="Node.js"
-                desc="I have worked with Node.JS before"
-              />
+              <Skill img="/src/assets/mongodb.svg" alt="MongoDB Logo" />
             </li>
             <li>
-              <MyCard
-                img="/src/assets/mongodb.svg"
-                alt="MongoDB Logo"
-                title="Node.js"
-                desc="Worked in Mongoose and MongoDB Compass"
-              />
+              <Skill img="/src/assets/nodejs.svg" alt="Node.JS Logo" />
             </li>
             <li>
-              <MyCard
-                img="/src/assets/firebase.svg"
-                alt="Firebase Logo"
-                title="Firebase"
-                desc="I have worked with Firebase before"
-              />
+              <Skill img="/src/assets/firebase.svg" alt="Firebase Logo" />
             </li>
           </ul>
         );
       case "DevOps":
         return (
-          <ul>
+          <ul className="cards">
             <li>
-              <MyCard
-                img="/src/assets/docker.svg"
-                alt="Docker Logo"
-                title="Docker"
-                desc="I have worked with Docker before"
-              />
+              <Skill img="/src/assets/kubernetes.svg" alt="Kubernetes Logo" />
             </li>
             <li>
-              <MyCard
-                img="/src/assets/kubernetes.svg"
-                alt="Kubernetes Logo"
-                title="Kubernetes"
-                desc="I have worked with Kubernetes before"
-              />
+              <Skill img="/src/assets/docker.svg" alt="Docker Logo" />
             </li>
             <li>
-              <MyCard
-                img="/src/assets/terraform.svg"
-                alt="Terraform Logo"
-                title="Terraform"
-                desc="I have worked with Terraform before"
-              />
+              <Skill img="/src/assets/terraform.svg" alt="Terraform Logo" />
             </li>
           </ul>
         );

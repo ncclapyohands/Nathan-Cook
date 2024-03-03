@@ -19,7 +19,7 @@ function Journey() {
         </div>
         <div
           className="timeline-component timeline-component--bg"
-          data-aos="fade-left"
+          data-aos="fade-up-left"
           data-aos-duration="1500"
         >
           <h2 className="timeline-title">Graduated from Sprague High School</h2>
@@ -31,7 +31,7 @@ function Journey() {
         {/* Component 2 (right p)*/}
         <div
           className="timeline-component timeline-component--bg"
-          data-aos="fade-right"
+          data-aos="fade-up-right"
           data-aos-duration="1500"
         >
           <h2 className="timeline-title">Rainsweet Inc.</h2>
@@ -66,7 +66,7 @@ function Journey() {
         </div>
         <div
           className="timeline-component timeline-component--bg"
-          data-aos="fade-left"
+          data-aos="fade-up-left"
           data-aos-duration="1500"
         >
           <h2 className="timeline-title">Progrexion</h2>
@@ -81,7 +81,7 @@ function Journey() {
         {/* Component 3 (left p)*/}
         <div
           className="timeline-component timeline-component--bg"
-          data-aos="fade-right"
+          data-aos="fade-up-right"
           data-aos-duration="1500"
         >
           <h2 className="timeline-title">Replay Live - Internship</h2>
@@ -115,7 +115,7 @@ function Journey() {
         </div>
         <div
           className="timeline-component timeline-component--bg"
-          data-aos="fade-left"
+          data-aos="fade-up-left"
           data-aos-duration="1500"
         >
           <h2 className="timeline-title">Graduated from BYU - Idaho</h2>
@@ -127,7 +127,7 @@ function Journey() {
         {/* Final (left p) */}
         <div
           className="timeline-component timeline-component--bg"
-          data-aos="fade-right"
+          data-aos="fade-up-right"
           data-aos-duration="1500"
         >
           <h2 className="timeline-title">We are Here!</h2>

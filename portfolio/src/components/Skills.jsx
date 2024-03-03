@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ToggleButtonGroup, ToggleButton } from "@mui/material";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 import "../styling/skills.css";
 
 import Skill from "./Skill";
@@ -11,6 +12,14 @@ export default function Skills() {
       setAlignment(newAlignment);
     }
   };
+
+  const theme = createTheme({
+    palette: {
+      blue: {
+        main: "#03045e",
+      },
+    },
+  });
 
   const renderList = () => {
     switch (alignment) {
@@ -79,22 +88,24 @@ export default function Skills() {
   };
 
   return (
-    <div>
-      <section className="container">
+    <div className="skills-container">
+      <section className="skills-button-container">
         <h2>Skills</h2>
-        <p>Jack of all trades, master of none</p>
-        <ToggleButtonGroup
-          color="primary"
-          value={alignment}
-          exclusive
-          onChange={handleChange}
-          aria-label="Platform"
-        >
-          <ToggleButton value="languages">Languages</ToggleButton>
-          <ToggleButton value="frontend">Frontend</ToggleButton>
-          <ToggleButton value="backend">Backend</ToggleButton>
-          <ToggleButton value="DevOps">DevOps</ToggleButton>
-        </ToggleButtonGroup>
+        <ThemeProvider theme={theme}>
+          <ToggleButtonGroup
+            color="blue"
+            value={alignment}
+            exclusive
+            onChange={handleChange}
+            aria-label="Platform"
+            className="button-group"
+          >
+            <ToggleButton value="languages">Languages</ToggleButton>
+            <ToggleButton value="frontend">Frontend</ToggleButton>
+            <ToggleButton value="backend">Backend</ToggleButton>
+            <ToggleButton value="DevOps">DevOps</ToggleButton>
+          </ToggleButtonGroup>
+        </ThemeProvider>
       </section>
 
       {renderList()}

@@ -31,7 +31,7 @@ body {
   font-size: 100%;
   line-height: 1.5;
   text-rendering: optimizeSpeed;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 /* Make images easier to work with */

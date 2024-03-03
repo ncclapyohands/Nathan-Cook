@@ -12,6 +12,7 @@
     rgba(144, 224, 239, 1) 75%,
     rgba(173, 232, 244, 1) 100%
   );
+  overflow: hidden;
 }
 .intro-title {
   position: absolute;

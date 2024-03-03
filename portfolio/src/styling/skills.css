@@ -1,17 +1,41 @@
+.skills-container {
+  background: rgb(0, 180, 216);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 180, 216, 1) 0%,
+    rgba(0, 150, 199, 1) 50%,
+    rgba(0, 119, 182, 1) 100%
+  );
+}
+
+.skills-button-container .button-group {
+  margin: auto;
+}
+.button-group {
+  margin: auto;
+}
+
 .cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 50px;
   background-color: transparent;
   list-style: none;
+  margin: 0;
+  flex-wrap: wrap;
+}
+.cards li {
+  margin: 10px 10px 0px 10px;
 }
 img {
   float: left;
   width: 100%;
   height: 200px;
   object-fit: cover;
-  padding: 10px;
-  background-color: var(--ocean-color);
+  padding: 1.5em;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0, 0, 5px, rgba(0, 0, 0, 0.2);
+  /* background-color: var(--ocean-color); */
   border-radius: 10px;
 }

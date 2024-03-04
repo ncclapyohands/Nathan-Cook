@@ -104,7 +104,7 @@ function Journey() {
         {/* Component 5 (right p) */}
         <div className="timeline-component ">
           <div
-            className="timeline-date timeline-date--right timeline-date--bottom"
+            className="timeline-date timeline-date--right"
             data-aos="flip-down"
           >
             September 2019 - July 2023
@@ -130,12 +130,23 @@ function Journey() {
           data-aos="fade-up-right"
           data-aos-duration="1500"
         >
-          <h2 className="timeline-title">We are Here!</h2>
-          <p className="timeline--p">This slot could be yours!</p>
+          <h2 className="timeline-title">Studying for my CCNA</h2>
+          <p className="timeline--p">
+            Working through Jeremys IT Lab. Loving it so far. I anticipate to
+            finish in April.
+          </p>
         </div>
         <div className="timeline-middle">
           <div className="timeline-point"></div>
           <div className="timeline-point--bottom"></div>
+        </div>
+        <div className="timeline-component ">
+          <div
+            className="timeline-date timeline-date--left timeline-date--bottom"
+            data-aos="flip-down"
+          >
+            Present
+          </div>
         </div>
       </div>
     </div>

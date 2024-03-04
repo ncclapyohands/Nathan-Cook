@@ -28,7 +28,20 @@ canvas {
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
-  z-index: 1000;
+  z-index: 0;
+}
+.sun {
+  background: rgb(255, 123, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 183, 0, 1) 0%,
+    rgba(255, 234, 0, 1) 100%
+  );
+  width: 100px;
+  height: 100px;
+  float: right;
+  border-radius: 0px 0px 0px 100px;
+  z-index: 100;
 }
 .intro-title {
   position: absolute;

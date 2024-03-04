@@ -14,12 +14,32 @@
   );
   overflow: hidden;
 }
+
+canvas {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url("images/ice.jpg"); */
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  z-index: 1000;
+}
 .intro-title {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -100%);
+  transform: translate(-50%, -50%);
   padding: 10px;
+}
+.avatar {
+  float: left;
+  margin-right: 10px;
 }
 .intro-title h2,
 p {
@@ -58,7 +78,7 @@ p {
 .wave#wave4 {
   z-index: 987;
   opacity: 0.7;
-  background-position-x: 6000px;
+  background-position-x: 600px;
 }
 
 @keyframes animate {
@@ -68,5 +88,11 @@ p {
   }
   50% {
     transform: translateY(20px);
+  }
+}
+
+@keyframes wave1 {
+  0%,
+  100% {
   }
 }

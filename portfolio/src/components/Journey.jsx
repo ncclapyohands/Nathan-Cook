@@ -3,7 +3,7 @@ import "../styling/journey.css";
 function Journey() {
   return (
     <div className="timeline-container">
-      <h1 className="title">Journey</h1>
+      <h2 className="title">Journey</h2>
       <div className="timeline">
         {/* Component 1 (left p)*/}
         <div className="timeline-component">

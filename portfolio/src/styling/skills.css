@@ -9,7 +9,12 @@
 }
 
 .skills-button-container .button-group {
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills-button-container h2 {
+  padding: 100px 0px 0px 100px;
 }
 .button-group {
   margin: auto;
@@ -28,7 +33,7 @@
 .cards li {
   margin: 10px 10px 0px 10px;
 }
-img {
+.cards li img {
   float: left;
   width: 100%;
   height: 200px;

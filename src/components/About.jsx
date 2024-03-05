@@ -8,9 +8,9 @@ import Carter from "../assets/carter.jpg";
 import NateAndBent from "../assets/n8b.jpeg";
 import Waterfall from "../assets/waterfall1.jpeg";
 import Teton6 from "../assets/teton6.jpeg";
-//import PuretoRico from "../assets/puretorico2.jpg";
+import PuretoRico from "../assets/puretorico2.jpg";
 import Teton8 from "../assets/teton8.jpeg";
-import PuertoRico4 from "../assets/Pr4.jpeg";
+import PuertoRico4 from "../assets/Pr4.jpg";
 
 const About = () => {
   useEffect(() => {
@@ -83,12 +83,12 @@ const About = () => {
           />
           <img className="image" src={Waterfall} alt="fam" draggable="false" />
           <img className="image" src={Teton6} alt="lincoln" draggable="false" />
-          {/* <img
+          <img
             className="image"
             src={PuretoRico}
             alt="pr squad"
             draggable="false"
-          /> */}
+          />
           <img className="image" src={Teton8} alt="Tetons!" draggable="false" />
           <img
             className="image"

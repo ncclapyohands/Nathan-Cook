@@ -11,7 +11,7 @@ export default function Projects() {
             img="/src/assets/linkedOut.png"
             alt="linked out page"
             title="LinkedOut"
-            desc="LinkedOut was my first full stack development project. Utilized MongoDB, Express, React, and NodeJS."
+            desc="LinkedOut was my first full stack development project. Utilized MongoDB, Express, React, and NodeJS. There is a user feed, "
             link="https://github.com/byui-wdd430/professional-network-ncclapyohands"
           />
         </li>

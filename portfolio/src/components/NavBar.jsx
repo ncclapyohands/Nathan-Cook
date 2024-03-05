@@ -38,28 +38,6 @@ const NavBar = () => {
         </Link>
         <Link
           activeClass="active"
-          to="experience"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-          onClick={closeMenu}
-        >
-          Experience
-        </Link>
-        <Link
-          activeClass="active"
-          to="education"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-          onClick={closeMenu}
-        >
-          Education
-        </Link>
-        <Link
-          activeClass="active"
           to="skills"
           spy={true}
           smooth={true}
@@ -68,6 +46,28 @@ const NavBar = () => {
           onClick={closeMenu}
         >
           Skills
+        </Link>
+        <Link
+          activeClass="active"
+          to="journey"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          onClick={closeMenu}
+        >
+          Journey
+        </Link>
+        <Link
+          activeClass="active"
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          onClick={closeMenu}
+        >
+          Projects
         </Link>
         <Link
           activeClass="active"

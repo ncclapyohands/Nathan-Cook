@@ -1,8 +1,18 @@
 import Avatar from "@mui/material/Avatar";
 import "../styling/intro.css";
 import { useEffect } from "react";
+import { Button } from "@mui/material";
 
 export default function Introduction() {
+  const onButtonClick = () => {
+    const pdfUrl = "/src/assets/Nathan Cook Resume.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "Nathan Cook Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   useEffect(() => {
     let wave1 = document.getElementById("wave1");
     let wave2 = document.getElementById("wave2");
@@ -144,20 +154,36 @@ export default function Introduction() {
         <canvas id="sunbeamCanvas"></canvas>
         <div className="intro-title">
           <Avatar
-            src="/src/assets/beachpic.png"
+            src="/assets/beachpic.png"
             sx={{ width: 200, height: 200 }}
             className="avatar"
             data-aos="fade-right"
             data-aos-duration="2000"
           ></Avatar>
-          <h2 data-aos="fade-down-left" data-aos-duration="1000">
+          <h2
+            data-aos="fade-down-left"
+            data-aos-duration="1000"
+            data-aos-easing="linear"
+          >
             Nathan Cook
           </h2>
-          <p data-aos="fade-up" data-aos-duration="2000">
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="linear"
+          >
             Recent Software Engineering Graduate from BYU - Idaho. Passion for
             web dev and information technology. Adventurous, spontaneous, and
             dedicated to learning new technologies.
           </p>
+          <Button
+            onClick={onButtonClick}
+            className="intro-button"
+            variant="contained"
+            data-aos="flip-up"
+          >
+            Resume
+          </Button>
         </div>
 
         <div className="wave" id="wave1" style={{ "--var": 1 }}></div>

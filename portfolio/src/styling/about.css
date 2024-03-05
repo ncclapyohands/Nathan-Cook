@@ -7,3 +7,38 @@
   padding: 10px 0px 10px 0px;
   margin: 0px 100px 0px 100px;
 }
+.scroll {
+  overflow: hidden;
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+#img-track {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  animation: scroll 60s linear infinite;
+  width: max-content;
+}
+#img-track .image {
+  width: 100%;
+  height: 44vmin;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  max-width: max-content;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 0.5px));
+  }
+}

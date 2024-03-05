@@ -1,42 +1,19 @@
 import { useEffect } from "react";
 import "../styling/about.css"; // Add your styles in AboutMe.css
+import Teton7 from "../assets/teton7.jpeg";
+import r2 from "../assets/4r2.jpeg";
+import r3 from "../assets/4r3.jpeg";
+import r4 from "../assets/4r4.jpeg";
+import crt from "../assets/crt.jpg";
+import n8b from "../assets/n8b.jpeg";
+import Waterfall from "../assets/waterfall1.jpeg";
+import teton6 from "../assets/teton6.jpeg";
+import pr2 from "../assets/pr2.jpg";
+import teton8 from "../assets/teton8.jpeg";
+import pr4 from "../assets/pr4.jpeg";
 
 const About = () => {
   useEffect(() => {
-    // let track = document.getElementById("img-track");
-    // // let scrollValue = window.scrollY;
-    // window.onmousedown = (e) => {
-    //   track.dataset.mouseDownAt = e.clientX;
-    // };
-    // this.window.onmouseup = () => {
-    //   track.dataset.mouseDownAt = "0";
-    //   track.dataset.prevPercentage = track.dataset.percentage;
-    // };
-    // window.onmousemove = (e) => {
-    //   if (track.dataset.mouseDownAt === "0") return;
-    //   const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
-    //     maxDelta = window.innerWidth / 2;
-    //   let percentage = (mouseDelta / maxDelta) * -100,
-    //     nextPercentage = parseFloat(track.dataset.prevPercentage) + percentage;
-    //   Math.min(nextPercentage, 0);
-    //   Math.max(nextPercentage, -100);
-    //   track.dataset.percentage = nextPercentage;
-    //   for (const image of track.getElementsByClassName("image")) {
-    //     image.animate(
-    //       {
-    //         objectPosition: `${100 + nextPercentage}% center`,
-    //       },
-    //       { duration: 1200, fill: "forwards" }
-    //     );
-    //   }
-    //   track.animate(
-    //     {
-    //       transform: `translate(${nextPercentage}%, 0%)`,
-    //     },
-    //     { duration: 1200, fill: "forwards" }
-    //   );
-    // };
-
     let scroll = document.querySelectorAll(".scroll");
 
     function addAnimation() {
@@ -73,69 +50,29 @@ const About = () => {
       </div>
       <div className="scroll">
         <div id="img-track" className="scroll-inner">
+          <img className="image" src={Teton7} alt="Tetons" draggable="false" />
+          <img className="image" src={r2} alt="4runner2" draggable="false" />
+          <img className="image" src={r3} alt="4runner3" draggable="false" />
+          <img className="image" src={r4} alt="4runner4" draggable="false" />
           <img
             className="image"
-            src="/src/assets/teton7.jpeg"
-            alt="4runner1"
-            draggable="false"
-          />
-          <img
-            className="image"
-            src="/src/assets/4r2.jpeg"
-            alt="4runner2"
-            draggable="false"
-          />
-          <img
-            className="image"
-            src="/src/assets/4r3.jpeg"
-            alt="4runner3"
-            draggable="false"
-          />
-          <img
-            className="image"
-            src="/src/assets/4r4.jpeg"
-            alt="4runner4"
-            draggable="false"
-          />
-          <img
-            className="image"
-            src="/src/assets/crt.JPG"
+            src={crt}
             alt="bruther carter"
             draggable="false"
           />
           <img
             className="image"
-            src="/src/assets/n8b.jpeg"
-            alt="bently my cusin"
+            src={n8b}
+            alt="bentley my cusin"
             draggable="false"
           />
+          <img className="image" src={Waterfall} alt="fam" draggable="false" />
+          <img className="image" src={teton6} alt="lincoln" draggable="false" />
+          <img className="image" src={pr2} alt="pr squad" draggable="false" />
+          <img className="image" src={teton8} alt="Tetons!" draggable="false" />
           <img
             className="image"
-            src="/src/assets/waterfall1.jpeg"
-            alt="fam"
-            draggable="false"
-          />
-          <img
-            className="image"
-            src="/src/assets/teton6.jpeg"
-            alt="lincoln"
-            draggable="false"
-          />
-          <img
-            className="image"
-            src="/src/assets/pr2.jpg"
-            alt="pr squad"
-            draggable="false"
-          />
-          <img
-            className="image"
-            src="/src/assets/teton8.jpeg"
-            alt="sign"
-            draggable="false"
-          />
-          <img
-            className="image"
-            src="/src/assets/pr4.jpeg"
+            src={pr4}
             alt="pr squad line-up"
             draggable="false"
           />

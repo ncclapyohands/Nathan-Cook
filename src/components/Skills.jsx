@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { ToggleButtonGroup, ToggleButton } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import "../styling/skills.css";
@@ -85,13 +85,13 @@ export default function Skills() {
         return (
           <ul className="cards">
             <li>
-              <Skill img="/src/assets/kubernetes.svg" alt="Kubernetes Logo" />
+              <Skill img={Kubernetes} alt="Kubernetes Logo" />
             </li>
             <li>
-              <Skill img="/src/assets/docker.svg" alt="Docker Logo" />
+              <Skill img={Docker} alt="Docker Logo" />
             </li>
             <li>
-              <Skill img="/src/assets/terraform.svg" alt="Terraform Logo" />
+              <Skill img={Terraform} alt="Terraform Logo" />
             </li>
           </ul>
         );

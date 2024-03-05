@@ -2,6 +2,7 @@ import Avatar from "@mui/material/Avatar";
 import "../styling/intro.css";
 import { useEffect } from "react";
 import { Button } from "@mui/material";
+import avatarImg from "../assets/beachpic.png";
 
 export default function Introduction() {
   const onButtonClick = () => {
@@ -154,7 +155,7 @@ export default function Introduction() {
         <canvas id="sunbeamCanvas"></canvas>
         <div className="intro-title">
           <Avatar
-            src="/assets/beachpic.png"
+            src={avatarImg}
             sx={{ width: 200, height: 200 }}
             className="avatar"
             data-aos="fade-right"

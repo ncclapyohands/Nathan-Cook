@@ -3,14 +3,14 @@ import "../styling/intro.css";
 import { useEffect } from "react";
 import { Button } from "@mui/material";
 import avatarImg from "../assets/beachpic.png";
-import Resume from "../assets/NathanCookResume.pdf";
+//import Resume from "../assets/NathanCookResume.pdf";
 
 export default function Introduction() {
   const onButtonClick = () => {
-    const pdfUrl = { Resume };
+    const pdfUrl = "../assets/NathanCookResume.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "Nathan Cook Resume.pdf";
+    link.download = "NathanCookResume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

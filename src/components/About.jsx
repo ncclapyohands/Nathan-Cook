@@ -8,7 +8,7 @@ import Carter from "../assets/carter.jpg";
 import n8b from "../assets/n8b.jpeg";
 import Waterfall from "../assets/waterfall1.jpeg";
 import teton6 from "../assets/teton6.jpeg";
-import pr2 from "../assets/pr2.jpg";
+import pr2 from "../assets/puretorico2.jpg";
 import teton8 from "../assets/teton8.jpeg";
 import pr4 from "../assets/pr4.jpeg";
 

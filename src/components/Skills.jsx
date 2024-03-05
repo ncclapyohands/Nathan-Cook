@@ -1,7 +1,20 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { ToggleButtonGroup, ToggleButton } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import "../styling/skills.css";
+import C from "../assets/c++.png";
+import PythonImg from "../assets/python.png";
+import Java from "../assets/java.svg";
+import HTML from "../assets/HTML5.svg";
+import CSS from "../assets/css.svg";
+import ReactImg from "../assets/react.svg";
+import Vite from "../assets/vite.svg";
+import MongoDb from "../assets/mongodb.svg";
+import NodeJS from "../assets/nodejs.svg";
+import Firebase from "../assets/firebase.svg";
+import Kubernetes from "../assets/kubernetes.svg";
+import Docker from "../assets/docker.svg";
+import Terraform from "../assets/terraform.svg";
 
 import Skill from "./Skill";
 export default function Skills() {
@@ -27,13 +40,13 @@ export default function Skills() {
         return (
           <ul className="cards">
             <li>
-              <Skill img="/src/assets/c++.png" alt="C++ Logo" />
+              <Skill img={C} alt="C++ Logo" />
             </li>
             <li>
-              <Skill img="/src/assets/python.png" alt="Python Logo" />
+              <Skill img={PythonImg} alt="Python Logo" />
             </li>
             <li>
-              <Skill img="/src/assets/java.svg" alt="Java Logo" />
+              <Skill img={Java} alt="Java Logo" />
             </li>
           </ul>
         );
@@ -41,16 +54,16 @@ export default function Skills() {
         return (
           <ul className="cards">
             <li>
-              <Skill img="/src/assets/HTML5.svg" alt="HTML Logo" />
+              <Skill img={HTML} alt="HTML Logo" />
             </li>
             <li>
-              <Skill img="/src/assets/css.svg" alt="CSS logo" />
+              <Skill img={CSS} alt="CSS logo" />
             </li>
             <li>
-              <Skill img="/src/assets/react.svg" alt="React Logo" />
+              <Skill img={ReactImg} alt="React Logo" />
             </li>
             <li>
-              <Skill img="/src/assets/vite.svg" alt="Vite Logo" />
+              <Skill img={Vite} alt="Vite Logo" />
             </li>
           </ul>
         );
@@ -58,13 +71,13 @@ export default function Skills() {
         return (
           <ul className="cards">
             <li>
-              <Skill img="/src/assets/mongodb.svg" alt="MongoDB Logo" />
+              <Skill img={MongoDb} alt="MongoDB Logo" />
             </li>
             <li>
-              <Skill img="/src/assets/nodejs.svg" alt="Node.JS Logo" />
+              <Skill img={NodeJS} alt="Node.JS Logo" />
             </li>
             <li>
-              <Skill img="/src/assets/firebase.svg" alt="Firebase Logo" />
+              <Skill img={Firebase} alt="Firebase Logo" />
             </li>
           </ul>
         );

@@ -1,5 +1,9 @@
 import Project from "./Project";
 import "../styling/project.css";
+import LinkedOut from "../assets/linkedOut.png";
+import FlappyBird from "../assets/flappyBird.png";
+import PokeAPI from "../assets/Poke-API.png";
+import LOTRAPI from "../assets/middle-earth.jpg";
 
 export default function Projects() {
   return (
@@ -8,7 +12,7 @@ export default function Projects() {
       <ul className="projects">
         <li>
           <Project
-            img="/src/assets/linkedOut.png"
+            img={LinkedOut}
             alt="linked out page"
             title="LinkedOut"
             desc="LinkedOut was my first full stack development project. Utilized MongoDB, Express, React, and NodeJS. There is a user feed, "
@@ -17,7 +21,7 @@ export default function Projects() {
         </li>
         <li>
           <Project
-            img="/src/assets/flappyBird.png"
+            img={FlappyBird}
             alt="flappy bird game"
             title="Flappy Bird"
             desc="A game I created in Java. This project was meant to challenge me in a new language. It includes levels that vary in speed."
@@ -26,7 +30,7 @@ export default function Projects() {
         </li>
         <li>
           <Project
-            img="/src/assets/Poke-API.png"
+            img={PokeAPI}
             alt="Pokemon Battle Field!"
             title="PokeAPI"
             desc="Cordinated group project to create a pokemon battle arena written completely in Javascript. Music provided."
@@ -35,7 +39,7 @@ export default function Projects() {
         </li>
         <li>
           <Project
-            img="/src/assets/middle-earth.jpg"
+            img={LOTRAPI}
             alt="Map of Middle Earth"
             title="LOTR_API"
             desc="Worked in a backend team to develop an API for a frontend team. The NodeJS API was used for a map of Middle Earth. Utilized tools such as Swagger, MongoDB, and Rest."

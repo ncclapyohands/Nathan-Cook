@@ -1,9 +1,8 @@
-# Nathan Cook's Portfolio
+# React + Vite
 
-Hey Guys! This is my portfolio! I decided to build this little website with a few tools such as...
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- React
-- Vite
-- React Router
+Currently, two official plugins are available:
 
-There are more things to add over time. As I continue to make updates, I will continue to add to this list! Keep in touch!
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

@@ -10,7 +10,7 @@ import Waterfall from "../assets/waterfall1.jpeg";
 import Teton6 from "../assets/teton6.jpeg";
 //import PuretoRico from "../assets/puretorico2.jpg";
 import Teton8 from "../assets/teton8.jpeg";
-import PuertoRico4 from "../assets/pr4.jpeg";
+import PuertoRico4 from "../assets/Pr4.jpeg";
 
 const About = () => {
   useEffect(() => {

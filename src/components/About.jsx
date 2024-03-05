@@ -4,7 +4,7 @@ import Teton7 from "../assets/teton7.jpeg";
 import r2 from "../assets/4r2.jpeg";
 import r3 from "../assets/4r3.jpeg";
 import r4 from "../assets/4r4.jpeg";
-import crt from "../assets/crt.jpg";
+import Carter from "../assets/carter.jpg";
 import n8b from "../assets/n8b.jpeg";
 import Waterfall from "../assets/waterfall1.jpeg";
 import teton6 from "../assets/teton6.jpeg";
@@ -56,7 +56,7 @@ const About = () => {
           <img className="image" src={r4} alt="4runner4" draggable="false" />
           <img
             className="image"
-            src={crt}
+            src={Carter}
             alt="bruther carter"
             draggable="false"
           />

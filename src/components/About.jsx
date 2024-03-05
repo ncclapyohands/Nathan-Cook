@@ -8,7 +8,7 @@ import Carter from "../assets/carter.jpg";
 import n8b from "../assets/n8b.jpeg";
 import Waterfall from "../assets/waterfall1.jpeg";
 import teton6 from "../assets/teton6.jpeg";
-import pr2 from "../assets/puretorico2.jpg";
+import PuretoRico from "../assets/puretorico2.jpg";
 import teton8 from "../assets/teton8.jpeg";
 import pr4 from "../assets/pr4.jpeg";
 
@@ -68,7 +68,12 @@ const About = () => {
           />
           <img className="image" src={Waterfall} alt="fam" draggable="false" />
           <img className="image" src={teton6} alt="lincoln" draggable="false" />
-          <img className="image" src={pr2} alt="pr squad" draggable="false" />
+          <img
+            className="image"
+            src={PuretoRico}
+            alt="pr squad"
+            draggable="false"
+          />
           <img className="image" src={teton8} alt="Tetons!" draggable="false" />
           <img
             className="image"

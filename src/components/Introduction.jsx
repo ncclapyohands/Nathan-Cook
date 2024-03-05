@@ -3,7 +3,7 @@ import "../styling/intro.css";
 import { useEffect } from "react";
 import { Button } from "@mui/material";
 import avatarImg from "../assets/beachpic.png";
-import Resume from "../assets/Nathan Cook Resume.pdf";
+import Resume from "../assets/NathanCookResume.pdf";
 
 export default function Introduction() {
   const onButtonClick = () => {

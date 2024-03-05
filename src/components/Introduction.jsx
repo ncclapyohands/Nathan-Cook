@@ -154,7 +154,7 @@ export default function Introduction() {
         <canvas id="sunbeamCanvas"></canvas>
         <div className="intro-title">
           <Avatar
-            src="/assets/beachpic.png"
+            src="/src/assets/beachpic.png"
             sx={{ width: 200, height: 200 }}
             className="avatar"
             data-aos="fade-right"

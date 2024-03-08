@@ -15,12 +15,10 @@ import PuertoRico4 from "../assets/Pr4.jpg";
 const About = () => {
   useEffect(() => {
     let scroll = document.querySelectorAll(".scroll");
-
     function addAnimation() {
       scroll.forEach((scroll) => {
         const scrollInner = scroll.querySelector(".scroll-inner");
         const scrollContent = Array.from(scrollInner.children);
-
         scrollContent.forEach((item) => {
           const duplicatedItem = item.cloneNode(true);
           duplicatedItem.setAttribute("aria-hidden", true);
@@ -84,11 +82,11 @@ const About = () => {
           <img className="image" src={Waterfall} alt="fam" draggable="false" />
           <img className="image" src={Teton6} alt="lincoln" draggable="false" />
           {/* <img
-            className="image"
-            src={PuretoRico2}
-            alt="pr squad"
-            draggable="false"
-          /> */}
+          //   className="image"
+          //   src={PuretoRico2}
+          //   alt="pr squad"
+          //   draggable="false"
+          // /> */}
           <img className="image" src={Teton8} alt="Tetons!" draggable="false" />
           <img
             className="image"

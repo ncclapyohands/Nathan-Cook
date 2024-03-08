@@ -15,34 +15,19 @@
   overflow: hidden;
 }
 
-canvas {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100vw;
-  height: 100vh;
-  /* background-image: url("images/ice.jpg"); */
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: cover;
-  z-index: 0;
-}
-.sun {
-  background: rgb(255, 123, 0);
-  background: radial-gradient(
-    circle,
-    rgba(255, 183, 0, 1) 0%,
-    rgba(255, 234, 0, 1) 100%
-  );
-  width: 100px;
-  height: 100px;
+.sun img {
   float: right;
-  border-radius: 0px 0px 0px 100px;
-  z-index: 100;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: -15%;
+  right: -8%;
+  animation-name: sunbeam;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
+
 .intro-title {
   position: absolute;
   top: 50%;
@@ -78,6 +63,19 @@ p {
   animation: animate 4s ease-in-out infinite;
   animation-delay: calc(var(--var) * 0.25s);
 }
+.sailboat {
+  position: absolute;
+  bottom: 12%;
+  left: 10%;
+  width: 10%;
+  animation: animate 4s ease-in-out infinite;
+  animation-delay: calc(var(--var) * 0.25s);
+}
+
+.sailboat#sailboat {
+  z-index: 998;
+  background-position-x: 200px;
+}
 
 .wave#wave1 {
   z-index: 1000;
@@ -107,5 +105,14 @@ p {
   }
   50% {
     transform: translateY(20px);
+  }
+}
+
+@keyframes sunbeam {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(-360deg);
   }
 }

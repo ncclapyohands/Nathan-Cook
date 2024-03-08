@@ -5,6 +5,7 @@ import Journey from "./Journey";
 import Introduction from "./Introduction";
 import Projects from "./Projects";
 import Footer from "./Footer";
+import Todo from "./Todo";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Journey />
       <Projects />
       <Footer />
+      <Todo />
     </div>
   );
 }

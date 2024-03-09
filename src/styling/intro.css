@@ -65,9 +65,9 @@ p {
 }
 .sailboat {
   position: absolute;
-  bottom: 12%;
+  bottom: 10%;
   left: 10%;
-  width: 10%;
+  width: 15%;
   animation: animate 4s ease-in-out infinite;
   animation-delay: calc(var(--var) * 0.25s);
 }

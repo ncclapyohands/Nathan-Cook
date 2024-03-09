@@ -1,23 +1,23 @@
 import Avatar from "@mui/material/Avatar";
 import "../styling/intro.css";
 import { useEffect } from "react";
-import { Button } from "@mui/material";
+// import { Button } from "@mui/material";
 import avatarImg from "../assets/beachpic.png";
 import Sun from "../assets/Sun.svg";
 import Sailboat from "../assets/Sailboat.svg";
 import Volcano from "../assets/Volcano.svg";
-//import Resume from "../assets/NathanCookResume.pdf";
+// import Resume from "../assets/NathanCookResume.pdf";
 
 export default function Introduction() {
-  const onButtonClick = () => {
-    const pdfUrl = "../assets/NathanCookResume.pdf";
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "NathanCookResume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+  // const onButtonClick = () => {
+  //   const pdfUrl = { Resume };
+  //   const link = document.createElement("a");
+  //   link.href = pdfUrl;
+  //   link.download = "NathanCookResume.pdf";
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // };
   useEffect(() => {
     let wave1 = document.getElementById("wave1");
     let wave2 = document.getElementById("wave2");
@@ -30,7 +30,7 @@ export default function Introduction() {
       wave2.style.backgroundPositionX = value + 500 * -4 + "px";
       wave3.style.backgroundPositionX = value + 300 * 2 + "px";
       wave4.style.backgroundPositionX = value + 600 * -2 + "px";
-      sailboat.style.backgroundPositionX = value + 200 * 4 + "px";
+      sailboat.style.backgroundPositionX = value * 4 + "px";
     });
   });
 
@@ -64,18 +64,18 @@ export default function Introduction() {
             web dev and information technology. Adventurous, spontaneous, and
             dedicated to learning new technologies.
           </p>
-          <Button
+          {/* <Button
             onClick={onButtonClick}
             className="intro-button"
             variant="contained"
             data-aos="flip-up"
           >
             Resume
-          </Button>
+          </Button> */}
         </div>
 
         <div className="wave" id="wave1" style={{ "--var": 1 }}></div>
-        <div className="sailboat" id="sailboat" style={{ "--var": 1 }}>
+        <div className="sailboat" id="sailboat" style={{ "--var": 5 }}>
           <img src={Sailboat} alt="its a little red sailboat!" />
         </div>
         <div className="volcano">

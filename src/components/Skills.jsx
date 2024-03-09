@@ -103,7 +103,22 @@ export default function Skills() {
   return (
     <div className="skills-container">
       <section className="skills-button-container">
-        <h2>Skills</h2>
+        <div className="title-container-outer">
+          <div className="title-container">
+            <h2>&lt;</h2>
+            <h2 data-aos="slide-left" className="title">
+              Skills
+            </h2>
+            <h2
+              data-aos="slide-left"
+              data-aos-duration="1500"
+              className="title-lag"
+            >
+              &nbsp;&#47;&gt;
+            </h2>
+          </div>
+        </div>
+
         <ThemeProvider theme={theme}>
           <ToggleButtonGroup
             color="blue"

@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import "../styling/about.css"; // Add your styles in AboutMe.css
+import "../styling/about.css";
 import Teton7 from "../assets/teton7.jpeg";
 import Runner2 from "../assets/4r2.jpeg";
 import Runner3 from "../assets/4r3.jpeg";
@@ -8,7 +8,6 @@ import Carter from "../assets/carter.jpg";
 import NateAndBent from "../assets/n8b.jpeg";
 import Waterfall from "../assets/waterfall1.jpeg";
 import Teton6 from "../assets/teton6.jpeg";
-//import PuretoRico2 from "../assets/puretorico2.jpg";
 import Teton8 from "../assets/teton8.jpeg";
 import PuertoRico4 from "../assets/Pr4.jpg";
 
@@ -31,7 +30,19 @@ const About = () => {
   return (
     <section className="about-me">
       <div className="am-container">
-        <h2>About Me</h2>
+        <div className="title-container">
+          <h2>&lt;</h2>
+          <h2 data-aos="slide-left" className="title">
+            About Me
+          </h2>
+          <h2
+            data-aos="slide-left"
+            data-aos-duration="1500"
+            className="title-lag"
+          >
+            &nbsp;&#47;&gt;
+          </h2>
+        </div>
         <p>
           Hi there! My name is Nate, and I am a passionate software engineer.
           Ever since middle school, I have been dedicated to learning the world
@@ -81,12 +92,6 @@ const About = () => {
           />
           <img className="image" src={Waterfall} alt="fam" draggable="false" />
           <img className="image" src={Teton6} alt="lincoln" draggable="false" />
-          {/* <img
-          //   className="image"
-          //   src={PuretoRico2}
-          //   alt="pr squad"
-          //   draggable="false"
-          // /> */}
           <img className="image" src={Teton8} alt="Tetons!" draggable="false" />
           <img
             className="image"

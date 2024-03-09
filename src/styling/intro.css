@@ -72,6 +72,14 @@ p {
   animation-delay: calc(var(--var) * 0.25s);
 }
 
+.volcano img {
+  position: absolute;
+  width: 30%;
+  right: 0;
+  bottom: 3vh;
+  z-index: 0;
+}
+
 .sailboat#sailboat {
   z-index: 998;
   background-position-x: 200px;

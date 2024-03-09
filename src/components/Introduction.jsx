@@ -5,6 +5,7 @@ import { Button } from "@mui/material";
 import avatarImg from "../assets/beachpic.png";
 import Sun from "../assets/Sun.svg";
 import Sailboat from "../assets/Sailboat.svg";
+import Volcano from "../assets/Volcano.svg";
 //import Resume from "../assets/NathanCookResume.pdf";
 
 export default function Introduction() {
@@ -74,8 +75,11 @@ export default function Introduction() {
         </div>
 
         <div className="wave" id="wave1" style={{ "--var": 1 }}></div>
-        <div className="sailboat" id="sailboat">
+        <div className="sailboat" id="sailboat" style={{ "--var": 1 }}>
           <img src={Sailboat} alt="its a little red sailboat!" />
+        </div>
+        <div className="volcano">
+          <img src={Volcano} alt="" />
         </div>
         <div className="wave" id="wave2" style={{ "--var": 2 }}></div>
         <div className="wave" id="wave3" style={{ "--var": 3 }}></div>

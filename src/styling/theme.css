@@ -19,3 +19,12 @@ h3 {
   font-style: normal;
   font-size: xx-large;
 }
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+}

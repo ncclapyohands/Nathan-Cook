@@ -3,7 +3,19 @@ import "../styling/journey.css";
 function Journey() {
   return (
     <div className="timeline-container">
-      <h2 className="title">Journey</h2>
+      <div className="title-container">
+        <h2>&lt;</h2>
+        <h2 data-aos="slide-left" className="title">
+          Journey
+        </h2>
+        <h2
+          data-aos="slide-left"
+          data-aos-duration="1500"
+          className="title-lag"
+        >
+          &nbsp;&#47;&gt;
+        </h2>
+      </div>
       <div className="timeline">
         {/* Component 1 (left p)*/}
         <div className="timeline-component">

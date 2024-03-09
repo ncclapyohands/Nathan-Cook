@@ -8,7 +8,19 @@ import LOTRAPI from "../assets/middle-earth.jpg";
 export default function Projects() {
   return (
     <div className="projects-container">
-      <h2>Projects</h2>
+      <div className="title-container">
+        <h2>&lt;</h2>
+        <h2 data-aos="slide-left" className="title">
+          Projects
+        </h2>
+        <h2
+          data-aos="slide-left"
+          data-aos-duration="1500"
+          className="title-lag"
+        >
+          &nbsp;&#47;&gt;
+        </h2>
+      </div>
       <ul className="projects">
         <li>
           <Project

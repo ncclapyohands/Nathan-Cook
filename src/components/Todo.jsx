@@ -3,12 +3,12 @@ export default function Todo() {
     <div>
       Todo:
       <ul>
-        <li>boat-intro</li>
-        <li>h2 titles/spacing. Make it stand out!</li>
+        <li>boat-intro : DONE!</li>
+        <li>h2 titles/spacing. Make it stand out! DONE!</li>
         <li>volcano/bubble effect (react particles)</li>
         <li>
           spacing between components (thinking margin 50% vh if thats
-          possible...)
+          possible...) DONE!
         </li>
         <li>fixing pdf not downloading in production error</li>
       </ul>{" "}

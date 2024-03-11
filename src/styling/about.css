@@ -6,7 +6,7 @@
 
 .am-container p {
   padding: 10px 0px 10px 0px;
-  margin: 0 25% 0 25%;
+  margin: 0 10% 0 10%;
 }
 .scroll {
   overflow: hidden;
@@ -35,5 +35,12 @@
 @keyframes scroll {
   to {
     transform: translate(calc(-50% - 0.5px));
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .am-container p {
+    padding: 10px 0px 10px 0px;
+    margin: 0 25% 0 25%;
   }
 }

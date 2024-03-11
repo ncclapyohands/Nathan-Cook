@@ -10,9 +10,14 @@ import Waterfall from "../assets/waterfall1.jpeg";
 import Teton6 from "../assets/teton6.jpeg";
 import Teton8 from "../assets/teton8.jpeg";
 import PuertoRico4 from "../assets/Pr4.jpg";
+import { isMobile } from "react-device-detect";
 
 const About = () => {
   useEffect(() => {
+    if (isMobile) {
+      let date = document.querySelectorAll("scroll");
+      date.style.display("hidden");
+    }
     let scroll = document.querySelectorAll(".scroll");
     function addAnimation() {
       scroll.forEach((scroll) => {

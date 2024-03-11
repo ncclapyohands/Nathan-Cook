@@ -1,6 +1,11 @@
+import { isMobile } from "react-device-detect";
 import "../styling/journey.css";
 
 function Journey() {
+  if (isMobile) {
+    let date = document.getElementsByClassName("timeline");
+    date.style.display("hidden");
+  }
   return (
     <div className="timeline-container">
       <div className="title-container">

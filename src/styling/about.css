@@ -1,7 +1,7 @@
 @import "./theme.css";
 @import "./fonts.css";
 .about-me {
-  background-color: var(--ocean-color);
+  /* background-color: var(--ocean-color); */
 }
 
 .am-container p {

@@ -1,11 +1,11 @@
 .skills-container {
-  background: rgb(0, 180, 216);
+  /* background: rgb(0, 180, 216);
   background: linear-gradient(
     180deg,
     rgba(0, 180, 216, 1) 0%,
     rgba(0, 150, 199, 1) 50%,
     rgba(0, 119, 182, 1) 100%
-  );
+  ); */
   padding-top: 20vh;
 }
 

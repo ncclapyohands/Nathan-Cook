@@ -2,13 +2,13 @@
   width: 100%;
   margin: 0;
   padding-top: 10vh;
-  background: rgb(0, 119, 182);
+  /* background: rgb(0, 119, 182);
   background: linear-gradient(
     180deg,
     rgba(2, 48, 71, 1) 0%,
     rgba(2, 62, 138, 1) 50%,
     rgba(0, 119, 182, 1) 100%
-  );
+  ); */
   position: relative;
 }
 .footer-container .gratitude {

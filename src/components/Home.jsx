@@ -196,11 +196,13 @@ export default function Home() {
     <div>
       <NavBar />
       <Introduction />
-      <About />
-      <Skills />
-      <Journey />
-      <Projects />
-      <Footer />
+      <div className="background">
+        <About />
+        <Skills />
+        <Journey />
+        <Projects />
+        <Footer />
+      </div>
       {/* <Todo /> */}
     </div>
   );

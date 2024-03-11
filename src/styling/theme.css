@@ -38,3 +38,24 @@ h3 {
   padding-top: 5vh;
   padding-bottom: 5vh;
 }
+.background {
+  /* background: rgb(0, 180, 216);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 180, 216, 1) 0%,
+    rgba(0, 150, 199, 1) 15%,
+    rgba(0, 119, 182, 1) 38%,
+    rgba(2, 62, 138, 1) 59%,
+    rgba(3, 4, 94, 1) 100%
+  ); */
+  background: rgb(0, 180, 216);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 180, 216, 1) 0%,
+    rgba(0, 150, 199, 1) 15%,
+    rgba(0, 119, 182, 1) 33%,
+    rgba(2, 62, 138, 1) 49%,
+    rgba(3, 4, 94, 1) 85%,
+    rgba(0, 119, 182, 1) 100%
+  );
+}

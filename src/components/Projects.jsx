@@ -27,7 +27,7 @@ export default function Projects() {
             img={LinkedOut}
             alt="linked out page"
             title="LinkedOut"
-            desc="LinkedOut was my first full stack development project. Utilized MongoDB, Express, React, and NodeJS. There is a user feed, "
+            desc="LinkedOut was my first full stack development project. Utilized MongoDB, Express, React, and NodeJS. There is a user authentication, feed, and a connections page. "
             link="https://github.com/byui-wdd430/professional-network-ncclapyohands"
           />
         </li>
@@ -45,7 +45,7 @@ export default function Projects() {
             img={PokeAPI}
             alt="Pokemon Battle Field!"
             title="PokeAPI"
-            desc="Cordinated group project to create a pokemon battle arena written completely in Javascript. Music provided."
+            desc="Coordinated group project to create a pokemon battle arena written completely in Javascript. Battle music provided."
             link="https://github.com/Tanner221/LOTR_API"
           />
         </li>

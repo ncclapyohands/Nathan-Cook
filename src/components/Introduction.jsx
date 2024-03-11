@@ -23,14 +23,13 @@ export default function Introduction() {
     let wave2 = document.getElementById("wave2");
     let wave3 = document.getElementById("wave3");
     let wave4 = document.getElementById("wave4");
-    let sailboat = document.getElementById("sailboat");
+
     window.addEventListener("scroll", function () {
       let value = window.scrollY;
       wave1.style.backgroundPositionX = value + 400 * 4 + "px";
       wave2.style.backgroundPositionX = value + 500 * -4 + "px";
       wave3.style.backgroundPositionX = value + 300 * 2 + "px";
       wave4.style.backgroundPositionX = value + 600 * -2 + "px";
-      sailboat.style.backgroundPositionX = value * 4 + "px";
     });
   });
 
@@ -75,9 +74,13 @@ export default function Introduction() {
         </div>
 
         <div className="wave" id="wave1" style={{ "--var": 1 }}></div>
-        <div className="sailboat" id="sailboat" style={{ "--var": 5 }}>
-          <img src={Sailboat} alt="its a little red sailboat!" />
-        </div>
+        <img
+          src={Sailboat}
+          alt="its a little red sailboat!"
+          className="sailboat"
+          id="sailboat"
+          style={{ "--var": 5 }}
+        />
         <div className="volcano">
           <img src={Volcano} alt="" />
         </div>

@@ -65,24 +65,21 @@ p {
 }
 .sailboat {
   position: absolute;
-  bottom: 10%;
-  left: 10%;
-  width: 15%;
+  bottom: 9%;
+  right: 30%;
+  width: 100%;
+  height: 150px;
   animation: animate 4s ease-in-out infinite;
   animation-delay: calc(var(--var) * 0.25s);
+  z-index: 998;
 }
 
 .volcano img {
   position: absolute;
   width: 30%;
   right: 0;
-  bottom: 3vh;
+  bottom: 1%;
   z-index: 0;
-}
-
-.sailboat#sailboat {
-  z-index: 998;
-  background-position-x: 200px;
 }
 
 .wave#wave1 {
@@ -124,3 +121,46 @@ p {
     transform: rotate(-360deg);
   }
 }
+
+/* @media screen and (min-width: 1024px) {
+  .sailboat {
+    position: absolute;
+    bottom: 12%;
+    left: 10%;
+    width: 15%;
+    animation: animate 4s ease-in-out infinite;
+    animation-delay: calc(var(--var) * 0.25s);
+  }
+  .sailboat#sailboat {
+    z-index: 998;
+    background-position-x: 200px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .sailboat {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 15%;
+    animation: animate 4s ease-in-out infinite;
+    animation-delay: calc(var(--var) * 0.25s);
+  }
+  .sailboat#sailboat {
+    z-index: 998;
+    background-position-x: 200px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .sailboat {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 10%;
+    animation: animate 4s ease-in-out infinite;
+    animation-delay: calc(var(--var) * 0.25s);
+  }
+  .sailboat#sailboat {
+    z-index: 998;
+    background-position-x: 200px;
+  }
+} */

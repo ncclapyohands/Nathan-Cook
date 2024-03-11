@@ -3,8 +3,8 @@ import "../styling/journey.css";
 
 function Journey() {
   if (isMobile) {
-    let date = document.getElementsByClassName("timeline");
-    date.style.display("hidden");
+    // let date = document.getElementsByClassName("timeline");
+    // date.style.display("hidden");
   }
   return (
     <div className="timeline-container">

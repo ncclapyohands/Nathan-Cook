@@ -15,8 +15,8 @@ import { isMobile } from "react-device-detect";
 const About = () => {
   useEffect(() => {
     if (isMobile) {
-      let date = document.querySelectorAll("scroll");
-      date.style.display("hidden");
+      // let date = document.querySelectorAll("scroll");
+      // date.style.display("hidden");
     }
     let scroll = document.querySelectorAll(".scroll");
     function addAnimation() {

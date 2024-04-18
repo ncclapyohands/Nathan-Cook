@@ -147,10 +147,10 @@ function Journey() {
           data-aos="fade-up-right"
           data-aos-duration="1500"
         >
-          <h2 className="timeline-title">Studying for my CCNA</h2>
+          <h2 className="timeline-title">Weave - Software Support</h2>
           <p className="timeline--p">
-            Working through Jeremys IT Lab. Loving it so far. I anticipate to
-            finish in April.
+            Began working for Weave. Very excited for this opportunity and
+            looking forward to growing with the company!
           </p>
         </div>
         <div className="timeline-middle">
@@ -162,7 +162,7 @@ function Journey() {
             className="timeline-date timeline-date--left timeline-date--bottom"
             data-aos="flip-down"
           >
-            Present
+            April 2024 - Present
           </div>
         </div>
       </div>

@@ -59,9 +59,9 @@ export default function Introduction() {
             data-aos-duration="1000"
             data-aos-easing="linear"
           >
-            Recent Software Engineering Graduate from BYU - Idaho. Passion for
-            web dev and information technology. Adventurous, spontaneous, and
-            dedicated to learning new technologies.
+            Recent Software Engineering Graduate from BYU - Idaho with a passion
+            for web dev and information technology. Adventurous, spontaneous,
+            and dedicated to learning new technologies.
           </p>
           {/* <Button
             onClick={onButtonClick}

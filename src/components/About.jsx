@@ -53,7 +53,7 @@ const About = () => {
           Ever since middle school, I have been dedicated to learning the world
           of technology. Whether that is general programming, web development,
           computer engineering, or even networking, my curiosity always seems to
-          get the better of me. Currently, I am studying for my CCNA!
+          get the better of me.
         </p>
         <p>
           In my free time, I enjoy playing spikeball, overlanding, and working

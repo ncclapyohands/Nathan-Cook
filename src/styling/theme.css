@@ -38,6 +38,12 @@ h3 {
   padding-top: 5vh;
   padding-bottom: 5vh;
 }
+p {
+
+  font-weight: 500;
+  font-style: normal;
+  font-size: var(--step-0);
+}
 .background {
   /* background: rgb(0, 180, 216);
   background: linear-gradient(

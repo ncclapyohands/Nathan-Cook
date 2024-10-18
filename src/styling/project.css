@@ -21,7 +21,7 @@
   margin: 10px 10px 10px 10px;
 }
 .project-card {
-  height: 400px;
+  height: 450px;
   width: 400px;
   padding: 1.5em;
   background: rgba(255, 255, 255, 0.2);
@@ -40,8 +40,9 @@
   margin-top: 10px;
 }
 .project-card p {
-  font-size: small;
-  margin: 0;
+  font-weight: 500;
+  font-style: normal;
+  font-size: var(--step--1);
 }
 .project-card .project-button {
   position: absolute;
